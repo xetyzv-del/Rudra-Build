@@ -51,7 +51,7 @@ function App() {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const appId = __app_id;
+  ;
 
   // 1. Auth & Initial Data Seeding
   useEffect(() => {
