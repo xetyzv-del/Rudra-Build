@@ -8,7 +8,8 @@ import { getAuth, signInAnonymously, onAuthStateChanged, signOut } from 'firebas
 import { LucideHome, LucidePackage, LucideShoppingCart, LucideClipboardList, LucideMapPin, LucidePhone, LucideMail, LucideSearch, LucidePlus, LucideMinus, LucideTrash2, LucideHeart, LucideUser, LucideLogOut } from 'lucide-react';
 
 // --- Firebase Config & Init ---
-const firebaseConfig =  { apiKey: "AIzaSyDmKB9tMjQCFw0LGijvpfgOW4SZa5821q0",
+const firebaseConfig =  {
+ apiKey: "AIzaSyDmKB9tMjQCFw0LGijvpfgOW4SZa5821q0",
   authDomain: "rudraconst-d1692.firebaseapp.com",
   projectId: "rudraconst-d1692",
   storageBucket: "rudraconst-d1692.firebasestorage.app",
