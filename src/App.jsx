@@ -8,12 +8,12 @@ import { getAuth, signInAnonymously, onAuthStateChanged, signOut } from 'firebas
 import { LucideHome, LucidePackage, LucideShoppingCart, LucideClipboardList, LucideMapPin, LucidePhone, LucideMail, LucideSearch, LucidePlus, LucideMinus, LucideTrash2, LucideHeart, LucideUser, LucideLogOut } from 'lucide-react';
 
 // --- Firebase Config & Init ---
-const firebaseConfig = JSON.parse(apiKey: "AIzaSyDmKB9tMjQCFw0LGijvpfgOW4SZa5821q0",
+const firebaseConfig =  { apiKey: "AIzaSyDmKB9tMjQCFw0LGijvpfgOW4SZa5821q0",
   authDomain: "rudraconst-d1692.firebaseapp.com",
   projectId: "rudraconst-d1692",
   storageBucket: "rudraconst-d1692.firebasestorage.app",
   messagingSenderId: "1026576787699",
-  appId: "1:1026576787699:web:3fff36495b2f);
+  appId: "1:1026576787699:web:3fff36495b2f};
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
