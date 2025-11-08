@@ -18,6 +18,7 @@ const firebaseConfig =  {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
+const appId = "rudra-production-v1"; // Defined safely as a string
 
 // --- Initial Seed Data (matches screenshots) ---
 const INITIAL_PRODUCTS = [
