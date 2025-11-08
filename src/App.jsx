@@ -14,7 +14,7 @@ const firebaseConfig =  {
   projectId: "rudraconst-d1692",
   storageBucket: "rudraconst-d1692.firebasestorage.app",
   messagingSenderId: "1026576787699",
-  appId: "1:1026576787699:web:3fff36495b2f",};
+  ,};
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
@@ -58,7 +58,7 @@ function App() {
       if (currentUser) {
         setUser(currentUser);
         // Fetch or create user profile
-        const userRef = doc(db, `artifacts/${appId}/users/${currentUser.uid}/profile`, 'info');
+        const userRef = doc(db, `artifacts/$"users/" + user.uid + "d}/profile`, 'info');
         const snapshot = await getDoc(userRef); // Need to import getDoc
         if (snapshot.exists()) {
           setUserProfile(snapshot.data());
