@@ -13,8 +13,8 @@ const firebaseConfig =  {
   authDomain: "rudraconst-d1692.firebaseapp.com",
   projectId: "rudraconst-d1692",
   storageBucket: "rudraconst-d1692.firebasestorage.app",
-  messagingSenderId: "1026576787699",
-  ,};
+  messagingSenderId: "1026576787699"
+};
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
